@@ -9,8 +9,8 @@ _start:
 	ldr r1, [r1]
 
 	cmp r1, #0
-	bne thenpart
-	
+	bne endofif
+
 thenpart: mov r2, #1
 	  ldr r3, =y
 	  str r2, [r3]
